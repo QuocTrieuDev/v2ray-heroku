@@ -25,10 +25,10 @@ Sau khi triển khai, mỗi khi bạn khởi động ứng dụng, V2Ray đang c
 Các tên biến cần được đặt trong quá trình triển khai được giải thích như sau.
 
 | Biến | Giá trị mặc định | Mô tả |
-|: --- |: --- |: --- |
-| `ID` |` ad806487-2d26-4636-98b6-ab85cc8521f7` | ID người dùng VLESS, dùng để xác thực, ở định dạng UUID |
+| :--- | :--- | :--- |
+| `ID` | `dd71329d-accd-476f-beef-167f625cf19a` | ID người dùng VLESS, dùng để xác thực, ở định dạng UUID |
 | `AID` | `64` | Để tránh bị phát hiện thêm, hãy đặt ID bổ sung, AlterID, với phạm vi từ 0 đến 65535 |
-| `WSPATH` |` / `| Đường dẫn giao thức HTTP được WebSocket sử dụng |
+| `WSPATH` | `/` | Đường dẫn giao thức HTTP được WebSocket sử dụng |
 
 ## Kết nối CloudFlare
 
