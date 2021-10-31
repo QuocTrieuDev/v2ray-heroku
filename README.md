@@ -1,5 +1,7 @@
 # V2Ray Heroku
 
+** Để triển khai V2Ray VLESS, vui lòng truy cập chi nhánh [vless](https://github.com/QuocTrieuDev/v2ray-heroku/tree/vless). **
+
 ## Tổng quan
 
 Dự án này được sử dụng để triển khai V2Ray WebSocket trên Heroku, trong phạm vi sử dụng hợp lý, hình ảnh này sẽ không bị chặn do lượng tài nguyên lớn.
@@ -25,6 +27,7 @@ Các tên biến cần được đặt trong quá trình triển khai được g
 | Biến | Giá trị mặc định | Mô tả |
 |: --- |: --- |: --- |
 | `ID` |` ad806487-2d26-4636-98b6-ab85cc8521f7` | ID người dùng VLESS, dùng để xác thực, ở định dạng UUID |
+| `AID` | `64` | Để tránh bị phát hiện thêm, hãy đặt ID bổ sung, AlterID, với phạm vi từ 0 đến 65535 |
 | `WSPATH` |` / `| Đường dẫn giao thức HTTP được WebSocket sử dụng |
 
 ## Kết nối CloudFlare
