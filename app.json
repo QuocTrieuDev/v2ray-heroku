@@ -7,16 +7,12 @@
             "description": "UUID",
             "value": "dd71329d-accd-476f-beef-167f625cf19a"
         },
-        "AID": {
-            "description": "AlterID",
-            "value": "64"
-        },
         "WSPATH": {
             "description": "WebSocket Path",
             "value": "/"
         }
     },
     "website": "https://ibcl.us/Heroku-V2Ray_20191014/",
-    "repository": "https://github.com/bclswl0827/v2ray-heroku/tree/vless",
+    "repository": "https://github.com/QuocTrieuDev/v2ray-heroku/tree/vless",
     "stack": "container"
 }

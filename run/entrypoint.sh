@@ -1,2 +1,2 @@
 RUNDIR=${RUNDIR:-"./run"}
-sh -c "${RUNDIR}/vmess.sh"
+sh -c "${RUNDIR}/vless.sh"
