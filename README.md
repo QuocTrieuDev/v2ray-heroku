@@ -1,6 +1,6 @@
-# VLESS Heroku
+# V2Ray Heroku
 
-## Tổng quat
+## Tổng quan
 
 Dự án này được sử dụng để triển khai V2Ray WebSocket trên Heroku, trong phạm vi sử dụng hợp lý, hình ảnh này sẽ không bị chặn do lượng tài nguyên lớn.
 
@@ -8,7 +8,7 @@ Sau khi triển khai, mỗi khi bạn khởi động ứng dụng, V2Ray đang c
 
 ## Triển khai
 
-### Bươc chân
+### Các bước
 
  1. Chuyển dự án này vào tài khoản GitHub của bạn (sử dụng `example` làm ví dụ)
  2. Sửa đổi tên dự án, hãy cẩn thận không bao gồm các từ khóa `v2ray` và` heroku` (tên dự án đã sửa đổi sử dụng `demo` làm ví dụ)
@@ -27,7 +27,7 @@ Các tên biến cần được đặt trong quá trình triển khai được g
 | `ID` |` ad806487-2d26-4636-98b6-ab85cc8521f7` | ID người dùng VLESS, dùng để xác thực, ở định dạng UUID |
 | `WSPATH` |` / `| Đường dẫn giao thức HTTP được WebSocket sử dụng |
 
-## Truy cập CloudFlare
+## Kết nối CloudFlare
 
 Hai phương pháp sau có thể kết nối ứng dụng với CloudFlare, từ đó tăng tốc độ ở một mức độ nhất định.
 
